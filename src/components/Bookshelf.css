@@ -1,0 +1,7 @@
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* Increased gap for better spacing */
+    justify-content: center;
+}
