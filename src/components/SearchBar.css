@@ -1,23 +1,11 @@
 .search-bar {
-    margin-bottom: 2rem;
+    position: relative;
+    padding-right: 10px;
 }
 
-.search-bar input[type="text"] {
-    padding-right: 5px;
-    padding-left: 5px;
-    /* Increased padding for better appearance */
-    width: 100%;
-    max-width: 600px;
-    /* Increased max-width for larger input */
-    margin-bottom: 1rem;
-    border: 2px solid #ff6347;
-    border-radius: 50px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1rem;
-    outline: none;
-    transition: border-color 0.3s;
+.suggestions-dropdown {
+    display: none;
+    /* You can remove this whole block if suggestions dropdown is completely removed */
 }
 
-.search-bar input[type="text"]:focus {
-    border-color: #ff4500;
-}
+/* Other styles for the search bar */

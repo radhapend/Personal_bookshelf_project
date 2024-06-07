@@ -1,13 +1,14 @@
 import React from 'react';
 import './BookCard.css';
 
-const BookCard = ({ book, addToBookshelf }) => {
+const BookCard = ({ book, removeFromBookshelf }) => {
     return (
         <div className="book-card">
             <h3>{book.title}</h3>
+            <p>Author: {book.author_name?.join(', ')}</p>
             <p>Edition Count: {book.edition_count}</p>
-            {addToBookshelf && (
-                <button onClick={() => addToBookshelf(book)}>Add to Bookshelf</button>
+            {removeFromBookshelf && (
+                <button className="button" onClick={() => removeFromBookshelf(book)}>Remove</button>
             )}
         </div>
     );

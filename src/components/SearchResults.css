@@ -1,76 +1,35 @@
-.search-results {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    /* Adjust the gap between cards */
-    margin-top: 2rem;
-    /* Space above the search results */
+.message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
 }
 
-.book-card {
-    background-color: #ffffff;
-    /* White background */
-    border-radius: 10px;
-    /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
-    padding: 1.5rem;
-    /* Padding inside the card */
-    width: 100%;
-    max-width: 300px;
-    /* Maximum width of the card */
-    text-align: center;
-    /* Center text inside the card */
-    transition: transform 0.3s;
-    /* Smooth transform transition */
+.cart {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
-.book-card:hover {
-    transform: scale(1.05);
-    /* Slightly enlarge card on hover */
+.cart h3 {
+    margin-top: 0;
 }
 
-.book-card h2 {
-    font-size: 1.25rem;
-    /* Font size for the book title */
-    color: #333;
-    /* Darker text color */
-    margin-bottom: 0.5rem;
-    /* Space below the title */
+.cart ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.book-card p {
-    font-size: 1rem;
-    /* Font size for the author */
-    color: #777;
-    /* Lighter text color for author */
-    margin-bottom: 1rem;
-    /* Space below the author */
+.cart li {
+    margin: 5px 0;
 }
 
-.book-card .button {
-    padding: 0.5rem 1rem;
-    /* Padding for the button */
-    background-color: #ff6347;
-    /* Button background color */
-    color: white;
-    /* Button text color */
-    border: none;
-    /* No border */
-    border-radius: 50px;
-    /* Rounded button */
-    cursor: pointer;
-    /* Pointer cursor on hover */
-    font-size: 1rem;
-    /* Font size for the button text */
-    transition: background-color 0.3s, transform 0.3s;
-    /* Smooth background and transform transition */
-}
-
-.book-card .button:hover {
-    background-color: #ff4500;
-    /* Darker button background on hover */
-    transform: scale(1.05);
-    /* Slightly enlarge button on hover */
+.added-message {
+    color: #f0ad4e;
+    font-weight: bold;
+    margin-top: 10px;
 }
